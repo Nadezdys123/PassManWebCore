@@ -21,7 +21,7 @@ namespace PassManWebCore.Controllers
             builder = new SqlConnectionStringBuilder();
             builder.DataSource = "tcp:mypassmansqlserver.database.windows.net";
             builder.UserID = "Nadezdys";
-            builder.Password = "c3yKy:*4%V:Wqj9h";
+            builder.Password = "********";
             builder.InitialCatalog = "PassManSqlDB";
         }
 
